@@ -1,3 +1,15 @@
 export default function Profile() {
-	return <h1>I am the profile component</h1>;
+	return (
+		<aside>
+			<div className="profile">
+				<img className="profile__image" src="./profile-hex.png" alt="" />
+			</div>
+			<br />
+			<div className="profile__name">
+				<h2>
+					<span className="profile--bold">Amy</span> Mansell
+				</h2>
+			</div>
+		</aside>
+	);
 }
